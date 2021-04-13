@@ -11,7 +11,7 @@ import ShimmerSwift
 
 public class AnimationPod : UIViewController {
     
-    public func performAnimation(with animate: Animations , viewToAnimate : UIView) {
+    public func performAnimation(with animate: Animations , viewToAnimate : UIView , parentview : UIView) {
         switch animate {
         case .EaseIn :
             viewToAnimate.transform = CGAffineTransform(scaleX: 0, y: 0)
@@ -29,22 +29,22 @@ public class AnimationPod : UIViewController {
             }
             
         case .FlipFromTop :
-            UIView.transition(with: view, duration: 2.0, options: .transitionFlipFromTop, animations: {
+            UIView.transition(with: parentview, duration: 2.0, options: .transitionFlipFromTop, animations: {
                
             }, completion: nil)
             
         case .FlipFromLeft :
-            UIView.transition(with: view, duration: 2.0, options: .transitionFlipFromLeft, animations: {
+            UIView.transition(with: parentview, duration: 2.0, options: .transitionFlipFromLeft, animations: {
                
             }, completion: nil)
             
         case .FlipFromBottom :
-            UIView.transition(with: view, duration: 2.0, options: .transitionFlipFromBottom, animations: {
+            UIView.transition(with: parentview, duration: 2.0, options: .transitionFlipFromBottom, animations: {
                
             }, completion: nil)
             
         case .FlipFromRight :
-            UIView.transition(with: view, duration: 2.0, options: .transitionFlipFromBottom, animations: {
+            UIView.transition(with: parentview, duration: 2.0, options: .transitionFlipFromBottom, animations: {
                
             }, completion: nil)
             
@@ -70,7 +70,7 @@ public class AnimationPod : UIViewController {
                 },  completion:nil)
             
         case .MoveToLeft :
-            viewToAnimate.frame = CGRect(x: view.frame.width , y: 0, width: view.frame.width / 3, height: view.frame.height / 3)
+            viewToAnimate.frame = CGRect(x: parentview.frame.width , y: 0, width: parentview.frame.width / 3, height: parentview.frame.height / 3)
             UIView.animate(withDuration: 2.0, delay: 0.0, options: UIView.AnimationOptions.curveEaseOut , animations:  {
 
                 
@@ -79,7 +79,7 @@ public class AnimationPod : UIViewController {
             
             
         case .MoveUpwards :
-            viewToAnimate.frame = CGRect(x: 0 , y: viewToAnimate.frame.height, width: view.frame.width / 3, height: view.frame.height / 3)
+            viewToAnimate.frame = CGRect(x: 0 , y: viewToAnimate.frame.height, width: parentview.frame.width / 3, height: parentview.frame.height / 3)
             UIView.animate(withDuration: 2.0, delay: 0.0, options: UIView.AnimationOptions.curveEaseOut , animations:  {
                 
                 viewToAnimate.center.y -=  300
@@ -111,8 +111,8 @@ public class AnimationPod : UIViewController {
             viewToAnimate.layer.add(transition, forKey: nil)
             
         case .Shimmer :
-            let shimmerView = ShimmeringView(frame: self.view.bounds)
-            view.addSubview(shimmerView)
+            let shimmerView = ShimmeringView(frame: parentview.bounds)
+            parentview.addSubview(shimmerView)
             shimmerView.contentView = viewToAnimate
             shimmerView.isShimmering = true
         
@@ -125,16 +125,16 @@ public class AnimationPod : UIViewController {
             
         case .MoveForwardAndBackward :
             UIView.animate(withDuration: 2.0, delay: 0.0, options: [.curveEaseOut ], animations: {
-                viewToAnimate.center.x +=  self.view.frame.width
+                viewToAnimate.center.x +=  parentview.frame.width
             }) { (success) in
                 UIView.animate(withDuration: 2.0, delay: 0.0, options: [.curveEaseOut ], animations: {
-                    viewToAnimate.center.x -=  self.view.frame.width
+                    viewToAnimate.center.x -=  parentview.frame.width
                 }, completion: nil)
             }
             
         case .MoveForwardRepeatedly :
             UIView.animate(withDuration: 2.0, delay: 0.0, options: [.curveEaseOut , .repeat], animations: {
-                viewToAnimate.center.x +=  self.view.frame.width
+                viewToAnimate.center.x +=  parentview.frame.width
             }, completion: nil)
             
             
