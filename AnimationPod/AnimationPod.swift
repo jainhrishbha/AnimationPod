@@ -272,8 +272,7 @@ public class AnimationPod : UIViewController {
         
        
        
-        default :
-            print("animate")
+       
         }
     
     }
@@ -328,8 +327,7 @@ public class AnimationPod : UIViewController {
                     cell.transform = CGAffineTransform(translationX: 0, y: 0)
             })
 
-        default :
-            print("Default case ")
+       
         }
     }
     

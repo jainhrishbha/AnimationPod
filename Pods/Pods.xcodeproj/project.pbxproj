@@ -40,13 +40,13 @@
 		779A47D1D6A2B96933C519CB64682394 /* ShimmerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerSwift.debug.xcconfig; sourceTree = "<group>"; };
 		84FB14073F2A4A64CBCD7CE49F5FFD5E /* Pods-AnimationPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationPod-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8531E5B2598A0D60D997FF37CD8C2958 /* Shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shimmer.swift; path = Shimmer/Shimmer.swift; sourceTree = "<group>"; };
-		93027197DCE144EF9A5DDF15E6C717AA /* libShimmerSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libShimmerSwift.a; path = libShimmerSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93027197DCE144EF9A5DDF15E6C717AA /* libShimmerSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShimmerSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC169ADC2BF05D69D4342C821C2218A4 /* Pods-AnimationPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPod.release.xcconfig"; sourceTree = "<group>"; };
 		D8CDF4E0A8F3E97CC30C67ED0C46DE6E /* Pods-AnimationPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationPod.modulemap"; sourceTree = "<group>"; };
 		D9082ABD1CBF2FFE31AF2654EF68DA3A /* ShimmerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShimmerSwift-prefix.pch"; sourceTree = "<group>"; };
 		DCD1B8175F49131DBF96BBDE2945BDAB /* ShimmeringMaskLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmeringMaskLayer.swift; path = Shimmer/ShimmeringMaskLayer.swift; sourceTree = "<group>"; };
-		DDF2AABCA01F306FAAA5204AD8ACDAE9 /* libPods-AnimationPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnimationPod.a"; path = "libPods-AnimationPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF2AABCA01F306FAAA5204AD8ACDAE9 /* libPods-AnimationPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A59EC5A5C1654C7FDFCFADD40C057C /* Pods-AnimationPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationPod-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				06C404E73B50CA114004F5B84191035A /* ShimmeringView.swift */,
 				A52510D527C2DEA234BA08258AD77D9A /* Support Files */,
 			);
-			name = ShimmerSwift;
 			path = ShimmerSwift;
 			sourceTree = "<group>";
 		};
@@ -218,7 +217,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -419,7 +418,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/ShimmerSwift/ShimmerSwift-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULEMAP_FILE = Headers/Public/ShimmerSwift/ShimmerSwift.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -506,7 +505,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/ShimmerSwift/ShimmerSwift-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULEMAP_FILE = Headers/Public/ShimmerSwift/ShimmerSwift.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
