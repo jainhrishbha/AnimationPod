@@ -10,7 +10,7 @@ import UIKit
 import ShimmerSwift
 
 public class AnimationPod : UIViewController {
-    
+    public static var shared = AnimationPod()
     public func performAnimation(with animate: Animations , viewToAnimate : UIView , parentview : UIView) {
         switch animate {
         case .EaseIn :

@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '12.0'
   spec.name         = "AnimationPod"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "It gives you a list of animations and performs it accordingly."
 
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Hrishbha Jain" => "hrishbhajain@magenative.com" }
 
 
-  spec.source       = { :git => "https://github.com/jainhrishbha/AnimationPod.git", :tag => "0.0.7" }
+  spec.source       = { :git => "https://github.com/jainhrishbha/AnimationPod.git", :tag => "0.0.8" }
   
   spec.static_framework = true
   spec.framework = "UIKit"
