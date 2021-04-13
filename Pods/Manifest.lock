@@ -1,0 +1,22 @@
+PODS:
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - ShimmerSwift (2.1.1)
+
+DEPENDENCIES:
+  - Motion
+  - ShimmerSwift
+
+SPEC REPOS:
+  trunk:
+    - Motion
+    - ShimmerSwift
+
+SPEC CHECKSUMS:
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  ShimmerSwift: f7ed2daf9c246de8299dfd9e12c6ab465cba9842
+
+PODFILE CHECKSUM: 40936214679ed21f2e3b0430320bbe30b5655bf3
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02210CFEC1CAB69B5817151F99B92D4E /* Motion+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05C4D6D05FAE398D3A92C191A4E147 /* Motion+UIViewController.swift */; };
+		0718E7817BFA1DFCC8DC978596012E86 /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9C8D4F0F28FB58D24177A412C5AC2 /* MotionAnimator.swift */; };
+		0B2B58CCAD02DF1D853F0B272CDEE7FB /* MotionViewOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CEAEFA9A8055D5855EE5D914FF889 /* MotionViewOrderStrategy.swift */; };
+		11B6782901E55F4E42F1EFAE65E98724 /* ShimmerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E11B0094A028340A38925E6FC15A2A7E /* ShimmerSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		121405D4AC7D52B8E95392D84477BF28 /* TransitionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34014BA4DEDE0947AE214BFF9FBAF29D /* TransitionPreprocessor.swift */; };
+		13228E9BB59C847E1CF75DA71F614B8F /* Motion+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E966A2A5BC61CA492BA4101DD0D42363 /* Motion+Array.swift */; };
+		20B4E549863536067A8D92A07348D97F /* MotionTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA2F4B36097B9B28630DB48C9C1C25B /* MotionTransition+Start.swift */; };
+		22E8E887C436FF636254DB0C9A4C24B3 /* Motion+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4A09EC6846785D91BEF81C2ED403C /* Motion+UIKit.swift */; };
+		260468F234904EC358FA9AEFC1882919 /* MotionCAAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B7806D4FCA172BBC1921BF05111776 /* MotionCAAnimation.swift */; };
+		2B4FFFA67C54322F443893005A90FB73 /* Motion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4614859D380EB98FCC4FAB2BC6FA6B /* Motion+UIView.swift */; };
+		2F4819133F1E86A1DE2DF363F0F01459 /* MotionTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D4B1BBF16DF1DFC8336D842F18A97 /* MotionTransition+Animate.swift */; };
+		2F72B830186802679F22E524F10CDE7F /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F228D83A5AC74C6F8DCC9F0007B0710 /* SourcePreprocessor.swift */; };
+		3BD551B28E86EB324EB6E8E5A57BC82F /* MotionViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975D13E2B6B13ED056BD41E05430961 /* MotionViewPropertyViewContext.swift */; };
+		3D4B740383FA8725542E30A5E3A2FE8F /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89842BD655E1B59743FBC565C2C42985 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */; };
+		3DC9A6A0CE814ABB6118FA2142939B12 /* MotionSnapshotType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19135FE75D7CBE199A1F24A1E9B56163 /* MotionSnapshotType.swift */; };
+		452DA4807D1065082202D9E3120CBE43 /* MotionCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C032A51058364A80963111ABBBBC67 /* MotionCoreAnimationViewContext.swift */; };
+		4BECE4B9827FD91ABC3FDA1217DA9144 /* Pods-AnimationPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B27D64AFC4488FAC0F4052859BDD0 /* Pods-AnimationPod-dummy.m */; };
+		51769EBC859E027868CDBCD4B64D8BFA /* MotionProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF501E6AD50CF9BAAC50444F1277C7 /* MotionProgressRunner.swift */; };
+		57E0EF74950DDE2F3698CC8E02000EAF /* MotionTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAACA8D724A4AFB49DD6F9234DA0F76 /* MotionTransition+UINavigationControllerDelegate.swift */; };
+		5C34CF0966B0EE1E8742B8AE7A87978C /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02264C59338745E28B61D0924FE8058 /* MotionAnimation.swift */; };
+		5DED35EB657DA50CBE0919CDCBE01211 /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3615C88CBE2FFC62D3284F0897DBBCE5 /* MotionModifier.swift */; };
+		63D6CAA4C50E37A743C01C8435FEFD66 /* Motion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBCC197C657356D244F4DAA3C89C14D /* Motion-dummy.m */; };
+		69938EF942189BCA1EA96E6DADA40EA1 /* MotionCoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F63E588EE542E7608878E0683E60C8 /* MotionCoordinateSpace.swift */; };
+		6DB52A7A59B096D2C8D4CC329B1F4425 /* MotionTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ED1B4DBFBF5D879830C7FB048904F4 /* MotionTransition+CustomTransition.swift */; };
+		77F68E1D42D0D64F968DDD6BCAF35869 /* MotionAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09A5AB6940BBAE879D7BF0975253A7B /* MotionAnimationState.swift */; };
+		7E02DDB81D83D50E226DDE765FB67B19 /* MotionTransitionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0366B0C4367C42E82B7A3A2C5F3F2196 /* MotionTransitionObserver.swift */; };
+		81783183CBFA81AC719E486C8BEEDC48 /* MotionViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52908886EC8E8A79335C94692EB4E18A /* MotionViewTransition.swift */; };
+		81EFFA37B2777FE4F58F3A8AFC56C9A6 /* Motion+CG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F85955C74A5CBC41F9BEC0EEF9B6BA /* Motion+CG.swift */; };
+		8AF8E702283B531260A004B1B33B12FB /* MotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3A0A6C3A65634F3199C68C94A20B8 /* MotionPlugin.swift */; };
+		A1FC83D5EF927CF5D17600A483325F77 /* MotionCorePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7057700D0616C8CB24358EE6B4EDAD /* MotionCorePreprocessor.swift */; };
+		A26BDCED79468F4AB21F0F6F2D28E4FE /* ShimmerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D7AC383E155B0DE6D5A088E52489B /* ShimmerSwift-dummy.m */; };
+		AB639235B9CE86067DE3D2A4915A5576 /* Motion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E674368993F8BD3D5FE7F7972D5E2C /* Motion-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB6B4DDB6A6FEF8EF4A89E9425AF7791 /* MotionTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69DCD2CC92703EAE3307C5FBD6F0EA9 /* MotionTargetState.swift */; };
+		ACC90ADF4285A966CC77A00272EADB82 /* MotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863D13908841EDEA4DED5CBDF3C4E9D /* MotionContext.swift */; };
+		B2B1A99B501FCDF90872F89018991BE1 /* MotionCoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D9D96E64EE5D2B8A7592519234326 /* MotionCoreAnimator.swift */; };
+		B33E2305BF59469FBBB49B9DD4D00C7C /* Motion+Obj-C.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049F823D6B9371F28A85F047AB6F6E1 /* Motion+Obj-C.swift */; };
+		B4429AB8F02AB33B220DC12F3EF947D4 /* ShimmeringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6092214EC461BF4DFA51AB827921ABA /* ShimmeringView.swift */; };
+		B5D72DCA264F1B4DF5028472B52BE120 /* Motion+CAMediaTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC039ECED83FFF7BA67B8A0D799788 /* Motion+CAMediaTimingFunction.swift */; };
+		BBBFEC5352520272E35572EE36700867 /* MotionTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05225B56E034B9128A26B2A15062837D /* MotionTransition+Complete.swift */; };
+		BF58E79B82E0D9C847E9AA7F2C59659A /* MotionViewTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7648FF89F8028E609087EA5A2F20543 /* MotionViewTransitionAnimator.swift */; };
+		C1F4186DFA69F4D95DF52CEBAE48B5C9 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81944F7D4956567265E269D6F1DD55CE /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		C7AC4C139DECB0FDDC3F72825582DDF2 /* MotionTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BFAE45BDA90E629EB95D1A2D6BEFE9 /* MotionTransition+Interactive.swift */; };
+		CD5C824BD93567CDF542938ACAB673A7 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626FC04244C334D0D78CED71651E0AC /* Application.swift */; };
+		D1E1C53181F2DD49EF67668F0977775B /* MotionAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546B91F3B31638C2BBE656DCAD2BA08 /* MotionAnimatorViewContext.swift */; };
+		D6DE67AD7D7046D0C28E424AD4AE8193 /* Pods-AnimationPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 464FB9F4AA6B01AEC079039B1063B0E2 /* Pods-AnimationPod-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD4D2AB61C4DE080E90C579A692FB1AB /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144986A733D0F4254CA75FC5DC477BC /* Shimmer.swift */; };
+		E622FA836E801BA6115B22E7167A1226 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15A40E83B819077D4F565E4D0752EE /* CascadePreprocessor.swift */; };
+		ED885785400CAD932B6C3500E987E2D5 /* ShimmeringMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAC38F736E256E71CB020E088C87AC /* ShimmeringMaskLayer.swift */; };
+		EE0906C1DAE4FBBA633F86674BBFA1DE /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C0F4587D4A23C0A1820D4E64BB4538 /* MatchPreprocessor.swift */; };
+		F00FA1FCE6066C4679320F8A684B4390 /* MotionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658BFF5EF373BF9DB8680B129441D46E /* MotionTransition.swift */; };
+		F15DF196ECCF8A617AB116FB2A6EBCBF /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2D97AFD0D96CB9F363A0E5DE3AE640 /* ConditionalPreprocessor.swift */; };
+		F5DA1E99ED8E711C9A8C9E23E1658018 /* MotionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310B740C2FC5955AC5CCDC33BBDC39EC /* MotionPreprocessor.swift */; };
+		F6916DBAA742CBE65A2958341FF9A690 /* ShimmeringLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F73CA6EABC6383BF1C36D8CE29605D /* ShimmeringLayer.swift */; };
+		F88F1BB73ED4DCB59FC3E04A1B697BAF /* MotionTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F765E2F528E33C7362F783F73FAF9E /* MotionTransition+UITabBarControllerDelegate.swift */; };
+		FB88FEAE81284DD378C672C59BEB2FBE /* Motion+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78237D9A91B3A7B3A76523D2A2C3A89 /* Motion+CALayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13DD3169F98465487C5093B01ACE1016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
+			remoteInfo = Motion;
+		};
+		3D2EE88057CE1009F9E15181F72CA58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2974CEBD4F57BEFE88471BC9F6361A;
+			remoteInfo = ShimmerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D4B1BBF16DF1DFC8336D842F18A97 /* MotionTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Animate.swift"; path = "Sources/Transition/MotionTransition+Animate.swift"; sourceTree = "<group>"; };
+		0366B0C4367C42E82B7A3A2C5F3F2196 /* MotionTransitionObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransitionObserver.swift; path = Sources/MotionTransitionObserver.swift; sourceTree = "<group>"; };
+		05225B56E034B9128A26B2A15062837D /* MotionTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Complete.swift"; path = "Sources/Transition/MotionTransition+Complete.swift"; sourceTree = "<group>"; };
+		06F73CA6EABC6383BF1C36D8CE29605D /* ShimmeringLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmeringLayer.swift; path = Shimmer/ShimmeringLayer.swift; sourceTree = "<group>"; };
+		15E674368993F8BD3D5FE7F7972D5E2C /* Motion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-umbrella.h"; sourceTree = "<group>"; };
+		181D7AC383E155B0DE6D5A088E52489B /* ShimmerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShimmerSwift-dummy.m"; sourceTree = "<group>"; };
+		19135FE75D7CBE199A1F24A1E9B56163 /* MotionSnapshotType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionSnapshotType.swift; path = Sources/MotionSnapshotType.swift; sourceTree = "<group>"; };
+		1EC9C8D4F0F28FB58D24177A412C5AC2 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = Sources/Animator/MotionAnimator.swift; sourceTree = "<group>"; };
+		237D9D96E64EE5D2B8A7592519234326 /* MotionCoreAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimator.swift; path = Sources/Animator/MotionCoreAnimator.swift; sourceTree = "<group>"; };
+		28F63E588EE542E7608878E0683E60C8 /* MotionCoordinateSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoordinateSpace.swift; path = Sources/MotionCoordinateSpace.swift; sourceTree = "<group>"; };
+		2ABBEC7C85A7ED8049451F203414CE48 /* ShimmerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		2F228D83A5AC74C6F8DCC9F0007B0710 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		310B740C2FC5955AC5CCDC33BBDC39EC /* MotionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPreprocessor.swift; path = Sources/Preprocessors/MotionPreprocessor.swift; sourceTree = "<group>"; };
+		34014BA4DEDE0947AE214BFF9FBAF29D /* TransitionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPreprocessor.swift; path = Sources/Preprocessors/TransitionPreprocessor.swift; sourceTree = "<group>"; };
+		3615C88CBE2FFC62D3284F0897DBBCE5 /* MotionModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionModifier.swift; path = Sources/MotionModifier.swift; sourceTree = "<group>"; };
+		3A05C4D6D05FAE398D3A92C191A4E147 /* Motion+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIViewController.swift"; path = "Sources/Extensions/Motion+UIViewController.swift"; sourceTree = "<group>"; };
+		3C9591929D561670E10CCE2B178168E5 /* Motion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.debug.xcconfig; sourceTree = "<group>"; };
+		4144986A733D0F4254CA75FC5DC477BC /* Shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shimmer.swift; path = Shimmer/Shimmer.swift; sourceTree = "<group>"; };
+		45A3A0A6C3A65634F3199C68C94A20B8 /* MotionPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPlugin.swift; path = Sources/MotionPlugin.swift; sourceTree = "<group>"; };
+		464FB9F4AA6B01AEC079039B1063B0E2 /* Pods-AnimationPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimationPod-umbrella.h"; sourceTree = "<group>"; };
+		46C032A51058364A80963111ABBBBC67 /* MotionCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimationViewContext.swift; path = Sources/Animator/MotionCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		4A4614859D380EB98FCC4FAB2BC6FA6B /* Motion+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIView.swift"; path = "Sources/Extensions/Motion+UIView.swift"; sourceTree = "<group>"; };
+		52908886EC8E8A79335C94692EB4E18A /* MotionViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransition.swift; path = Sources/MotionViewTransition.swift; sourceTree = "<group>"; };
+		53B7806D4FCA172BBC1921BF05111776 /* MotionCAAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCAAnimation.swift; path = Sources/MotionCAAnimation.swift; sourceTree = "<group>"; };
+		54BFAE45BDA90E629EB95D1A2D6BEFE9 /* MotionTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Interactive.swift"; path = "Sources/Transition/MotionTransition+Interactive.swift"; sourceTree = "<group>"; };
+		5975D13E2B6B13ED056BD41E05430961 /* MotionViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewPropertyViewContext.swift; path = Sources/Animator/MotionViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		59D8EAD0FA0DA3E76866F84F70F1C53D /* Motion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-prefix.pch"; sourceTree = "<group>"; };
+		5A7057700D0616C8CB24358EE6B4EDAD /* MotionCorePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCorePreprocessor.swift; path = Sources/Preprocessors/MotionCorePreprocessor.swift; sourceTree = "<group>"; };
+		5E7B27D64AFC4488FAC0F4052859BDD0 /* Pods-AnimationPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimationPod-dummy.m"; sourceTree = "<group>"; };
+		6288980F5D0329AB3F864F439663B77B /* ShimmerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShimmerSwift.modulemap; sourceTree = "<group>"; };
+		650D8286AC94E659335CC91436962B4F /* Pods-AnimationPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPod.debug.xcconfig"; sourceTree = "<group>"; };
+		658BFF5EF373BF9DB8680B129441D46E /* MotionTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransition.swift; path = Sources/Transition/MotionTransition.swift; sourceTree = "<group>"; };
+		67C7E1170DFC272FD073E5F3FDFDED57 /* Motion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Motion.modulemap; sourceTree = "<group>"; };
+		68ED1B4DBFBF5D879830C7FB048904F4 /* MotionTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+CustomTransition.swift"; path = "Sources/Transition/MotionTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		70846E5B17D25E4648C5023DCACC1780 /* Motion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.release.xcconfig; sourceTree = "<group>"; };
+		7DA2F4B36097B9B28630DB48C9C1C25B /* MotionTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Start.swift"; path = "Sources/Transition/MotionTransition+Start.swift"; sourceTree = "<group>"; };
+		7FDC039ECED83FFF7BA67B8A0D799788 /* Motion+CAMediaTimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CAMediaTimingFunction.swift"; path = "Sources/Extensions/Motion+CAMediaTimingFunction.swift"; sourceTree = "<group>"; };
+		81944F7D4956567265E269D6F1DD55CE /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		84FB14073F2A4A64CBCD7CE49F5FFD5E /* Pods-AnimationPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimationPod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89842BD655E1B59743FBC565C2C42985 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/MotionTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		91F765E2F528E33C7362F783F73FAF9E /* MotionTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		93027197DCE144EF9A5DDF15E6C717AA /* libShimmerSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libShimmerSwift.a; path = libShimmerSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE4A09EC6846785D91BEF81C2ED403C /* Motion+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIKit.swift"; path = "Sources/Extensions/Motion+UIKit.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCAC38F736E256E71CB020E088C87AC /* ShimmeringMaskLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmeringMaskLayer.swift; path = Shimmer/ShimmeringMaskLayer.swift; sourceTree = "<group>"; };
+		A02264C59338745E28B61D0924FE8058 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = Sources/MotionAnimation.swift; sourceTree = "<group>"; };
+		A049F823D6B9371F28A85F047AB6F6E1 /* Motion+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Obj-C.swift"; path = "Sources/Extensions/Motion+Obj-C.swift"; sourceTree = "<group>"; };
+		A0C0F4587D4A23C0A1820D4E64BB4538 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		A5D76BBAAF635FCA0BC5E5DE55F78EBA /* ShimmerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShimmerSwift.release.xcconfig; sourceTree = "<group>"; };
+		A863D13908841EDEA4DED5CBDF3C4E9D /* MotionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionContext.swift; path = Sources/MotionContext.swift; sourceTree = "<group>"; };
+		AE4CEAEFA9A8055D5855EE5D914FF889 /* MotionViewOrderStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewOrderStrategy.swift; path = Sources/MotionViewOrderStrategy.swift; sourceTree = "<group>"; };
+		AF15A40E83B819077D4F565E4D0752EE /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		AFBCC197C657356D244F4DAA3C89C14D /* Motion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Motion-dummy.m"; sourceTree = "<group>"; };
+		B4CDF8B42899958E0F8369B7221E7DEC /* ShimmerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShimmerSwift-prefix.pch"; sourceTree = "<group>"; };
+		BAAACA8D724A4AFB49DD6F9234DA0F76 /* MotionTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		BC169ADC2BF05D69D4342C821C2218A4 /* Pods-AnimationPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimationPod.release.xcconfig"; sourceTree = "<group>"; };
+		C0F85955C74A5CBC41F9BEC0EEF9B6BA /* Motion+CG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CG.swift"; path = "Sources/Extensions/Motion+CG.swift"; sourceTree = "<group>"; };
+		C7648FF89F8028E609087EA5A2F20543 /* MotionViewTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransitionAnimator.swift; path = Sources/Animator/MotionViewTransitionAnimator.swift; sourceTree = "<group>"; };
+		D69DCD2CC92703EAE3307C5FBD6F0EA9 /* MotionTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTargetState.swift; path = Sources/MotionTargetState.swift; sourceTree = "<group>"; };
+		D8CDF4E0A8F3E97CC30C67ED0C46DE6E /* Pods-AnimationPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimationPod.modulemap"; sourceTree = "<group>"; };
+		DDF2AABCA01F306FAAA5204AD8ACDAE9 /* libPods-AnimationPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnimationPod.a"; path = "libPods-AnimationPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09A5AB6940BBAE879D7BF0975253A7B /* MotionAnimationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationState.swift; path = Sources/MotionAnimationState.swift; sourceTree = "<group>"; };
+		E11B0094A028340A38925E6FC15A2A7E /* ShimmerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShimmerSwift-umbrella.h"; sourceTree = "<group>"; };
+		E3DF501E6AD50CF9BAAC50444F1277C7 /* MotionProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionProgressRunner.swift; path = Sources/Transition/MotionProgressRunner.swift; sourceTree = "<group>"; };
+		E78237D9A91B3A7B3A76523D2A2C3A89 /* Motion+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CALayer.swift"; path = "Sources/Extensions/Motion+CALayer.swift"; sourceTree = "<group>"; };
+		E966A2A5BC61CA492BA4101DD0D42363 /* Motion+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Array.swift"; path = "Sources/Extensions/Motion+Array.swift"; sourceTree = "<group>"; };
+		E9E83947349F7E8028823F3766451329 /* libMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMotion.a; path = libMotion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2D97AFD0D96CB9F363A0E5DE3AE640 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		F4A59EC5A5C1654C7FDFCFADD40C057C /* Pods-AnimationPod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimationPod-acknowledgements.plist"; sourceTree = "<group>"; };
+		F546B91F3B31638C2BBE656DCAD2BA08 /* MotionAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimatorViewContext.swift; path = Sources/Animator/MotionAnimatorViewContext.swift; sourceTree = "<group>"; };
+		F6092214EC461BF4DFA51AB827921ABA /* ShimmeringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShimmeringView.swift; path = Shimmer/ShimmeringView.swift; sourceTree = "<group>"; };
+		F626FC04244C334D0D78CED71651E0AC /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Sources/Application.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30975616CEB57BDFD5BCC7057BD109A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC180D66433E95A5BAE153E8EC5F4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D3433AF73091F9A549C29CD5289B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC7914E6CD3A032365B759C24CD07F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6288980F5D0329AB3F864F439663B77B /* ShimmerSwift.modulemap */,
+				181D7AC383E155B0DE6D5A088E52489B /* ShimmerSwift-dummy.m */,
+				B4CDF8B42899958E0F8369B7221E7DEC /* ShimmerSwift-prefix.pch */,
+				E11B0094A028340A38925E6FC15A2A7E /* ShimmerSwift-umbrella.h */,
+				2ABBEC7C85A7ED8049451F203414CE48 /* ShimmerSwift.debug.xcconfig */,
+				A5D76BBAAF635FCA0BC5E5DE55F78EBA /* ShimmerSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShimmerSwift";
+			sourceTree = "<group>";
+		};
+		3CEE2D8761885F2B0589B579199C156F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F626FC04244C334D0D78CED71651E0AC /* Application.swift */,
+				AF15A40E83B819077D4F565E4D0752EE /* CascadePreprocessor.swift */,
+				EA2D97AFD0D96CB9F363A0E5DE3AE640 /* ConditionalPreprocessor.swift */,
+				81944F7D4956567265E269D6F1DD55CE /* IgnoreSubviewModifiersPreprocessor.swift */,
+				A0C0F4587D4A23C0A1820D4E64BB4538 /* MatchPreprocessor.swift */,
+				E966A2A5BC61CA492BA4101DD0D42363 /* Motion+Array.swift */,
+				E78237D9A91B3A7B3A76523D2A2C3A89 /* Motion+CALayer.swift */,
+				7FDC039ECED83FFF7BA67B8A0D799788 /* Motion+CAMediaTimingFunction.swift */,
+				C0F85955C74A5CBC41F9BEC0EEF9B6BA /* Motion+CG.swift */,
+				A049F823D6B9371F28A85F047AB6F6E1 /* Motion+Obj-C.swift */,
+				9AE4A09EC6846785D91BEF81C2ED403C /* Motion+UIKit.swift */,
+				4A4614859D380EB98FCC4FAB2BC6FA6B /* Motion+UIView.swift */,
+				3A05C4D6D05FAE398D3A92C191A4E147 /* Motion+UIViewController.swift */,
+				A02264C59338745E28B61D0924FE8058 /* MotionAnimation.swift */,
+				E09A5AB6940BBAE879D7BF0975253A7B /* MotionAnimationState.swift */,
+				1EC9C8D4F0F28FB58D24177A412C5AC2 /* MotionAnimator.swift */,
+				F546B91F3B31638C2BBE656DCAD2BA08 /* MotionAnimatorViewContext.swift */,
+				53B7806D4FCA172BBC1921BF05111776 /* MotionCAAnimation.swift */,
+				A863D13908841EDEA4DED5CBDF3C4E9D /* MotionContext.swift */,
+				28F63E588EE542E7608878E0683E60C8 /* MotionCoordinateSpace.swift */,
+				46C032A51058364A80963111ABBBBC67 /* MotionCoreAnimationViewContext.swift */,
+				237D9D96E64EE5D2B8A7592519234326 /* MotionCoreAnimator.swift */,
+				5A7057700D0616C8CB24358EE6B4EDAD /* MotionCorePreprocessor.swift */,
+				3615C88CBE2FFC62D3284F0897DBBCE5 /* MotionModifier.swift */,
+				45A3A0A6C3A65634F3199C68C94A20B8 /* MotionPlugin.swift */,
+				310B740C2FC5955AC5CCDC33BBDC39EC /* MotionPreprocessor.swift */,
+				E3DF501E6AD50CF9BAAC50444F1277C7 /* MotionProgressRunner.swift */,
+				19135FE75D7CBE199A1F24A1E9B56163 /* MotionSnapshotType.swift */,
+				D69DCD2CC92703EAE3307C5FBD6F0EA9 /* MotionTargetState.swift */,
+				658BFF5EF373BF9DB8680B129441D46E /* MotionTransition.swift */,
+				002D4B1BBF16DF1DFC8336D842F18A97 /* MotionTransition+Animate.swift */,
+				05225B56E034B9128A26B2A15062837D /* MotionTransition+Complete.swift */,
+				68ED1B4DBFBF5D879830C7FB048904F4 /* MotionTransition+CustomTransition.swift */,
+				54BFAE45BDA90E629EB95D1A2D6BEFE9 /* MotionTransition+Interactive.swift */,
+				7DA2F4B36097B9B28630DB48C9C1C25B /* MotionTransition+Start.swift */,
+				BAAACA8D724A4AFB49DD6F9234DA0F76 /* MotionTransition+UINavigationControllerDelegate.swift */,
+				91F765E2F528E33C7362F783F73FAF9E /* MotionTransition+UITabBarControllerDelegate.swift */,
+				89842BD655E1B59743FBC565C2C42985 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */,
+				0366B0C4367C42E82B7A3A2C5F3F2196 /* MotionTransitionObserver.swift */,
+				AE4CEAEFA9A8055D5855EE5D914FF889 /* MotionViewOrderStrategy.swift */,
+				5975D13E2B6B13ED056BD41E05430961 /* MotionViewPropertyViewContext.swift */,
+				52908886EC8E8A79335C94692EB4E18A /* MotionViewTransition.swift */,
+				C7648FF89F8028E609087EA5A2F20543 /* MotionViewTransitionAnimator.swift */,
+				2F228D83A5AC74C6F8DCC9F0007B0710 /* SourcePreprocessor.swift */,
+				34014BA4DEDE0947AE214BFF9FBAF29D /* TransitionPreprocessor.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3FE03BCD52DBF4E6DAF31EF65769B741 /* ShimmerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4144986A733D0F4254CA75FC5DC477BC /* Shimmer.swift */,
+				06F73CA6EABC6383BF1C36D8CE29605D /* ShimmeringLayer.swift */,
+				9DCAC38F736E256E71CB020E088C87AC /* ShimmeringMaskLayer.swift */,
+				F6092214EC461BF4DFA51AB827921ABA /* ShimmeringView.swift */,
+				1CC7914E6CD3A032365B759C24CD07F6 /* Support Files */,
+			);
+			name = ShimmerSwift;
+			path = ShimmerSwift;
+			sourceTree = "<group>";
+		};
+		5000DB806F171CDEABED58680C211295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E83947349F7E8028823F3766451329 /* libMotion.a */,
+				DDF2AABCA01F306FAAA5204AD8ACDAE9 /* libPods-AnimationPod.a */,
+				93027197DCE144EF9A5DDF15E6C717AA /* libShimmerSwift.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65393C04D293565879DDCF0B33C67FA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE910F1D258C6EC4D77F1F2CBD52568 /* Pods-AnimationPod */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C8AB21F6F002525C4928E74DF0EF32D /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE2D8761885F2B0589B579199C156F /* Core */,
+				B136316769D15D3573B4F0C41FB265C8 /* Support Files */,
+			);
+			name = Motion;
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		9803E9E11F09FC5B72E090D00A065DD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C8AB21F6F002525C4928E74DF0EF32D /* Motion */,
+				3FE03BCD52DBF4E6DAF31EF65769B741 /* ShimmerSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B136316769D15D3573B4F0C41FB265C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67C7E1170DFC272FD073E5F3FDFDED57 /* Motion.modulemap */,
+				AFBCC197C657356D244F4DAA3C89C14D /* Motion-dummy.m */,
+				59D8EAD0FA0DA3E76866F84F70F1C53D /* Motion-prefix.pch */,
+				15E674368993F8BD3D5FE7F7972D5E2C /* Motion-umbrella.h */,
+				3C9591929D561670E10CCE2B178168E5 /* Motion.debug.xcconfig */,
+				70846E5B17D25E4648C5023DCACC1780 /* Motion.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Motion";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				9803E9E11F09FC5B72E090D00A065DD0 /* Pods */,
+				5000DB806F171CDEABED58680C211295 /* Products */,
+				65393C04D293565879DDCF0B33C67FA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE910F1D258C6EC4D77F1F2CBD52568 /* Pods-AnimationPod */ = {
+			isa = PBXGroup;
+			children = (
+				D8CDF4E0A8F3E97CC30C67ED0C46DE6E /* Pods-AnimationPod.modulemap */,
+				84FB14073F2A4A64CBCD7CE49F5FFD5E /* Pods-AnimationPod-acknowledgements.markdown */,
+				F4A59EC5A5C1654C7FDFCFADD40C057C /* Pods-AnimationPod-acknowledgements.plist */,
+				5E7B27D64AFC4488FAC0F4052859BDD0 /* Pods-AnimationPod-dummy.m */,
+				464FB9F4AA6B01AEC079039B1063B0E2 /* Pods-AnimationPod-umbrella.h */,
+				650D8286AC94E659335CC91436962B4F /* Pods-AnimationPod.debug.xcconfig */,
+				BC169ADC2BF05D69D4342C821C2218A4 /* Pods-AnimationPod.release.xcconfig */,
+			);
+			name = "Pods-AnimationPod";
+			path = "Target Support Files/Pods-AnimationPod";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		408BAB6EB5A0CA9C439575CC7E606784 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B6782901E55F4E42F1EFAE65E98724 /* ShimmerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F63F40976A4245FBDADD25C1B0FB377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB639235B9CE86067DE3D2A4915A5576 /* Motion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD224E2A6237C8791CA381F4E134727 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE67AD7D7046D0C28E424AD4AE8193 /* Pods-AnimationPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80CC270CB906E6AE81A3253788456C22 /* Pods-AnimationPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5B51ACBFFBD21C318EDAC5CD7D3959 /* Build configuration list for PBXNativeTarget "Pods-AnimationPod" */;
+			buildPhases = (
+				ADD224E2A6237C8791CA381F4E134727 /* Headers */,
+				12ACBAF6351B556057CDBBC17CFF5227 /* Sources */,
+				3CC180D66433E95A5BAE153E8EC5F4CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				134FD5DA2E1E1A3AA1FB926536DB71CD /* PBXTargetDependency */,
+				3DD10F9437160589881A1F58F3F2C17E /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimationPod";
+			productName = "Pods-AnimationPod";
+			productReference = DDF2AABCA01F306FAAA5204AD8ACDAE9 /* libPods-AnimationPod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9312109646DF39EBE725AD8F96A8C18B /* Motion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 098A26C753F21E3AF8DDA482CB6EA484 /* Build configuration list for PBXNativeTarget "Motion" */;
+			buildPhases = (
+				5F63F40976A4245FBDADD25C1B0FB377 /* Headers */,
+				299BA4B62E201434C6AD6DEEC1C3067E /* Sources */,
+				92D3433AF73091F9A549C29CD5289B37 /* Frameworks */,
+				EE68E95A69B0FC81048F8B9FC18E0F68 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Motion;
+			productName = Motion;
+			productReference = E9E83947349F7E8028823F3766451329 /* libMotion.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF2974CEBD4F57BEFE88471BC9F6361A /* ShimmerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431BA9980C688544E669E6B67C44C1E5 /* Build configuration list for PBXNativeTarget "ShimmerSwift" */;
+			buildPhases = (
+				408BAB6EB5A0CA9C439575CC7E606784 /* Headers */,
+				BAA15196090DF24377F77B4B5AF89BE0 /* Sources */,
+				30975616CEB57BDFD5BCC7057BD109A2 /* Frameworks */,
+				C86F30BC56BDE30210BFC38A087F2653 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShimmerSwift;
+			productName = ShimmerSwift;
+			productReference = 93027197DCE144EF9A5DDF15E6C717AA /* libShimmerSwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5000DB806F171CDEABED58680C211295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9312109646DF39EBE725AD8F96A8C18B /* Motion */,
+				80CC270CB906E6AE81A3253788456C22 /* Pods-AnimationPod */,
+				BF2974CEBD4F57BEFE88471BC9F6361A /* ShimmerSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C86F30BC56BDE30210BFC38A087F2653 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ShimmerSwift/ShimmerSwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/ShimmerSwift/ShimmerSwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ShimmerSwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ShimmerSwift/ShimmerSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ShimmerSwift/ShimmerSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		EE68E95A69B0FC81048F8B9FC18E0F68 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Motion/Motion.modulemap",
+				"${PODS_ROOT}/Headers/Public/Motion/Motion-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Motion-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Motion/Motion.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Motion/Motion-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12ACBAF6351B556057CDBBC17CFF5227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BECE4B9827FD91ABC3FDA1217DA9144 /* Pods-AnimationPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299BA4B62E201434C6AD6DEEC1C3067E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5C824BD93567CDF542938ACAB673A7 /* Application.swift in Sources */,
+				E622FA836E801BA6115B22E7167A1226 /* CascadePreprocessor.swift in Sources */,
+				F15DF196ECCF8A617AB116FB2A6EBCBF /* ConditionalPreprocessor.swift in Sources */,
+				C1F4186DFA69F4D95DF52CEBAE48B5C9 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				EE0906C1DAE4FBBA633F86674BBFA1DE /* MatchPreprocessor.swift in Sources */,
+				13228E9BB59C847E1CF75DA71F614B8F /* Motion+Array.swift in Sources */,
+				FB88FEAE81284DD378C672C59BEB2FBE /* Motion+CALayer.swift in Sources */,
+				B5D72DCA264F1B4DF5028472B52BE120 /* Motion+CAMediaTimingFunction.swift in Sources */,
+				81EFFA37B2777FE4F58F3A8AFC56C9A6 /* Motion+CG.swift in Sources */,
+				B33E2305BF59469FBBB49B9DD4D00C7C /* Motion+Obj-C.swift in Sources */,
+				22E8E887C436FF636254DB0C9A4C24B3 /* Motion+UIKit.swift in Sources */,
+				2B4FFFA67C54322F443893005A90FB73 /* Motion+UIView.swift in Sources */,
+				02210CFEC1CAB69B5817151F99B92D4E /* Motion+UIViewController.swift in Sources */,
+				63D6CAA4C50E37A743C01C8435FEFD66 /* Motion-dummy.m in Sources */,
+				5C34CF0966B0EE1E8742B8AE7A87978C /* MotionAnimation.swift in Sources */,
+				77F68E1D42D0D64F968DDD6BCAF35869 /* MotionAnimationState.swift in Sources */,
+				0718E7817BFA1DFCC8DC978596012E86 /* MotionAnimator.swift in Sources */,
+				D1E1C53181F2DD49EF67668F0977775B /* MotionAnimatorViewContext.swift in Sources */,
+				260468F234904EC358FA9AEFC1882919 /* MotionCAAnimation.swift in Sources */,
+				ACC90ADF4285A966CC77A00272EADB82 /* MotionContext.swift in Sources */,
+				69938EF942189BCA1EA96E6DADA40EA1 /* MotionCoordinateSpace.swift in Sources */,
+				452DA4807D1065082202D9E3120CBE43 /* MotionCoreAnimationViewContext.swift in Sources */,
+				B2B1A99B501FCDF90872F89018991BE1 /* MotionCoreAnimator.swift in Sources */,
+				A1FC83D5EF927CF5D17600A483325F77 /* MotionCorePreprocessor.swift in Sources */,
+				5DED35EB657DA50CBE0919CDCBE01211 /* MotionModifier.swift in Sources */,
+				8AF8E702283B531260A004B1B33B12FB /* MotionPlugin.swift in Sources */,
+				F5DA1E99ED8E711C9A8C9E23E1658018 /* MotionPreprocessor.swift in Sources */,
+				51769EBC859E027868CDBCD4B64D8BFA /* MotionProgressRunner.swift in Sources */,
+				3DC9A6A0CE814ABB6118FA2142939B12 /* MotionSnapshotType.swift in Sources */,
+				AB6B4DDB6A6FEF8EF4A89E9425AF7791 /* MotionTargetState.swift in Sources */,
+				2F4819133F1E86A1DE2DF363F0F01459 /* MotionTransition+Animate.swift in Sources */,
+				BBBFEC5352520272E35572EE36700867 /* MotionTransition+Complete.swift in Sources */,
+				6DB52A7A59B096D2C8D4CC329B1F4425 /* MotionTransition+CustomTransition.swift in Sources */,
+				C7AC4C139DECB0FDDC3F72825582DDF2 /* MotionTransition+Interactive.swift in Sources */,
+				20B4E549863536067A8D92A07348D97F /* MotionTransition+Start.swift in Sources */,
+				57E0EF74950DDE2F3698CC8E02000EAF /* MotionTransition+UINavigationControllerDelegate.swift in Sources */,
+				F88F1BB73ED4DCB59FC3E04A1B697BAF /* MotionTransition+UITabBarControllerDelegate.swift in Sources */,
+				3D4B740383FA8725542E30A5E3A2FE8F /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				F00FA1FCE6066C4679320F8A684B4390 /* MotionTransition.swift in Sources */,
+				7E02DDB81D83D50E226DDE765FB67B19 /* MotionTransitionObserver.swift in Sources */,
+				0B2B58CCAD02DF1D853F0B272CDEE7FB /* MotionViewOrderStrategy.swift in Sources */,
+				3BD551B28E86EB324EB6E8E5A57BC82F /* MotionViewPropertyViewContext.swift in Sources */,
+				81783183CBFA81AC719E486C8BEEDC48 /* MotionViewTransition.swift in Sources */,
+				BF58E79B82E0D9C847E9AA7F2C59659A /* MotionViewTransitionAnimator.swift in Sources */,
+				2F72B830186802679F22E524F10CDE7F /* SourcePreprocessor.swift in Sources */,
+				121405D4AC7D52B8E95392D84477BF28 /* TransitionPreprocessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA15196090DF24377F77B4B5AF89BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4D2AB61C4DE080E90C579A692FB1AB /* Shimmer.swift in Sources */,
+				F6916DBAA742CBE65A2958341FF9A690 /* ShimmeringLayer.swift in Sources */,
+				ED885785400CAD932B6C3500E987E2D5 /* ShimmeringMaskLayer.swift in Sources */,
+				B4429AB8F02AB33B220DC12F3EF947D4 /* ShimmeringView.swift in Sources */,
+				A26BDCED79468F4AB21F0F6F2D28E4FE /* ShimmerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		134FD5DA2E1E1A3AA1FB926536DB71CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Motion;
+			target = 9312109646DF39EBE725AD8F96A8C18B /* Motion */;
+			targetProxy = 13DD3169F98465487C5093B01ACE1016 /* PBXContainerItemProxy */;
+		};
+		3DD10F9437160589881A1F58F3F2C17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShimmerSwift;
+			target = BF2974CEBD4F57BEFE88471BC9F6361A /* ShimmerSwift */;
+			targetProxy = 3D2EE88057CE1009F9E15181F72CA58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		388D5AEFEA497A55DA1AB71064912A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70846E5B17D25E4648C5023DCACC1780 /* Motion.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Motion/Motion.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Motion;
+				PRODUCT_NAME = Motion;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E49A03DB659FC470CA208161996157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650D8286AC94E659335CC91436962B4F /* Pods-AnimationPod.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationPod/Pods-AnimationPod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61E28542161E937BBE0B5CCE47CD36BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABBEC7C85A7ED8049451F203414CE48 /* ShimmerSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ShimmerSwift/ShimmerSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/ShimmerSwift/ShimmerSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ShimmerSwift;
+				PRODUCT_NAME = ShimmerSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		679C7C6AF71AE7E0D3F3BA0E97C4CAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D76BBAAF635FCA0BC5E5DE55F78EBA /* ShimmerSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ShimmerSwift/ShimmerSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/ShimmerSwift/ShimmerSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ShimmerSwift;
+				PRODUCT_NAME = ShimmerSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70175C6858705AEB42474FCFA0EB05D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9591929D561670E10CCE2B178168E5 /* Motion.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Motion/Motion.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Motion;
+				PRODUCT_NAME = Motion;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5E1701DEC6B53FC4F05464D365DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC169ADC2BF05D69D4342C821C2218A4 /* Pods-AnimationPod.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimationPod/Pods-AnimationPod.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		098A26C753F21E3AF8DDA482CB6EA484 /* Build configuration list for PBXNativeTarget "Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70175C6858705AEB42474FCFA0EB05D0 /* Debug */,
+				388D5AEFEA497A55DA1AB71064912A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5B51ACBFFBD21C318EDAC5CD7D3959 /* Build configuration list for PBXNativeTarget "Pods-AnimationPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E49A03DB659FC470CA208161996157 /* Debug */,
+				EC5E1701DEC6B53FC4F05464D365DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431BA9980C688544E669E6B67C44C1E5 /* Build configuration list for PBXNativeTarget "ShimmerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E28542161E937BBE0B5CCE47CD36BB /* Debug */,
+				679C7C6AF71AE7E0D3F3BA0E97C4CAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
